@@ -53,3 +53,23 @@ body > div {
     color: white;
   }
 }
+
+.text-bounce {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+  animation: bounce 0.5s ease-out 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 70px;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-bottom: 20px;
+  }
+}
