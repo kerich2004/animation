@@ -1,0 +1,42 @@
+body > div {
+  margin-bottom: 15px;
+}
+
+.transition .square {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  transition: 1s;
+}
+
+.transition .square:hover {
+  background-color: aquamarine;
+  border-radius: 40px;
+  margin-left: 80vw;
+  rotate: 700deg;
+}
+
+.keyframes .square {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: transform 10s ease-in-out 1s infinite alternate;
+}
+
+@keyframes transform {
+  0% {
+    background-color: darkorchid;
+  }
+  70% {
+    background-color: red;
+    rotate: 1turn;
+    translate: 70vw 0;
+  }
+  75% {
+    border-radius: 0;
+  }
+  100% {
+    translate: 50vw 0;
+  }
+}
