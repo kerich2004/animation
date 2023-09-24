@@ -6,6 +6,7 @@ body > div {
   width: 150px;
   height: 150px;
   background-color: green;
+  color: white;
   transition: 1s;
 }
 
@@ -72,4 +73,10 @@ body > div {
   100% {
     margin-bottom: 20px;
   }
+}
+
+.style-js .square {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(228, 63, 219);
 }
